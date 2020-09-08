@@ -1,0 +1,23 @@
+conda update -n base conda
+python -m pip install --upgrade pip
+conda update spyder
+pip install -U setuptools
+pip install -U virtualenv
+pip install pandas_ml
+pip install graphviz
+
+# Upgrades
+pip install -U scikit-learn
+pip install -U statsmodels
+
+#Deep Learning
+pip install tensorflow
+pip install -q -U tensorflow_hub
+
+#Upgrade
+#if folder exist then clean "rm -rf keras-tuner"
+git clone https://github.com/keras-team/keras-tuner.git
+cd keras-tuner
+pip install .
+
+tf_upgrade_v2 --intree D:\trainings\tensorflow --outtree D:\trainings\tensorflow_up --copyotherfiles False

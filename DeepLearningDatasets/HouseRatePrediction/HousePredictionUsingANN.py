@@ -18,9 +18,9 @@ from sklearn.model_selection import train_test_split
 
 tf.__version__
 
-os.chdir(r"/home/evkikum/Desktop/Datascience/Python/DeepLearning")
+os.chdir(r"/home/evkikum/Desktop/Datascience/Python/DeepLearning/DeepLearning/DeepLearningDatasets/HouseRatePrediction")
 
-dataset = pd.read_excel('data/Folds5x2_pp.xlsx')
+dataset = pd.read_excel('Folds5x2_pp.xlsx')
 dataset.info()
 dataset.describe()
 

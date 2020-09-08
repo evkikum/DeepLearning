@@ -1,0 +1,28 @@
+1. Only 64 bit machines: 16 GB RAM, 500 GB HD, only 64 bit OS. 
+1.1 Internet access without restriction
+
+2. Please install Anaconda from following link. Note , it will install Python 3.6.8 and all relevent packages
+https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe
+
+3. Install Libraries by running following command on Anaconda Prompt. Use file "Install.txt"
+
+4. Download Data files from locations
+https://community.qlik.com/servlet/JiveServlet/previewBody/18789-102-1-25268/AirPassengers.csv
+
+# Remove the first column as index after download
+https://github.com/vincentarelbundock/Rdatasets/blob/master/csv/MASS/Boston.csv
+
+# Remove the first column as index after download
+https://github.com/vincentarelbundock/Rdatasets/blob/master/csv/datasets/iris.csv
+
+# Download train.csv and rename to kaggle_titanic_train.csv and copy to data folder
+https://www.kaggle.com/c/titanic/data
+
+Download "PRSA_data_2010.1.1-2014.12.31.csv" from https://archive.ics.uci.edu/ml/machine-learning-databases/00381/
+
+
+
+
+
+ 
+

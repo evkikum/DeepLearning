@@ -26,12 +26,10 @@ from sklearn.ensemble import GradientBoostingClassifier
 
 tf.__version__
 
-os.chdir(r"/home/evkikum/Desktop/Datascience/Python/DeepLearning")
+os.chdir(r"/home/evkikum/Desktop/Datascience/Python/DeepLearning/DeepLearning/DeepLearningDatasets/ChurnModelling")
 
-
-dataset = pd.read_csv("data/Churn_Modelling.csv")
+dataset = pd.read_csv("Churn_Modelling.csv")
 dataset.info()
-
 
 df = dataset.iloc[:, 3:-1]
 df.info()
